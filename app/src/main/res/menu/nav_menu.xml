@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_menu_1"
+        android:title="New"
+        android:icon="@drawable/edit_icon"/>
+
+    <item android:id="@+id/nav_menu_2"
+        android:title="Delete"
+        android:icon="@drawable/delete_icon"/>
+
+    <item android:id="@+id/nav_menu_3"
+        android:title="More...">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:title="Setting"
+                android:icon="@drawable/setting_icon"/>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share_icon"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/nav_menu_4">
+        <item
+            android:id="@+id/phone"
+            android:title="Phone"
+            android:icon="@drawable/phone_icon"/>
+        <item
+            android:id="@+id/email"
+            android:title="Email"
+            android:icon="@drawable/email_icon"/>
+        <item
+            android:id="@+id/search"
+            android:title="Search"
+            android:icon="@drawable/search_icon"/>
+    </group>
+
+    <item android:id="@+id/nav_menu_5"
+        android:title="Test">
+        <menu>
+            <item
+                android:id="@+id/location"
+                android:title="Location"
+                android:icon="@drawable/location_icon"/>
+            <item
+                android:id="@+id/map"
+                android:title="Map"
+                android:icon="@drawable/map_icon"/>
+        </menu>
+    </item>
+
+</menu>
